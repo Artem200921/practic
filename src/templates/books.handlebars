@@ -1,0 +1,12 @@
+{{#each this}}
+<li class="gallery__item">
+  <h2><b>Назва книги: {{title}}</b></h2>
+  <h3><b>Автор: {{author}}</b></h3>
+  <ul class="gallery__genres">
+    {{#each genres}} <li>{{this}}</li> {{/each}}
+  </ul>
+  <div class="list__thumb">
+    <img src="{{img}}" alt="Прапор " width="320">
+  </div>
+</li>
+{{/each}}

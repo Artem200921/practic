@@ -1,0 +1,12 @@
+{{#each this}}
+<li class="gallery__item">
+  <h2>{{name}}</h2>
+  <p><b>Зброя: {{weapon}}</b></p>
+  <ul class="gallery__skills">
+    {{#each skills}} <li>{{this}}</li> {{/each}}
+  </ul>
+  <div class="gallery__thumb">
+    <img src="{{img}}" alt="Прапор " width="320">
+  </div>
+</li>
+{{/each}}

@@ -1,0 +1,152 @@
+/* 1 */
+/* .gallery {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  max-width: calc(100% - 64px);
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  grid-gap: 24px;
+}
+.gallery__item {
+  padding: 20px;
+  height: 500px;
+  background-color: grey;
+  border: 4px solid rgb(66, 66, 66);
+  transition: border-color 1s ease;
+}
+.gallery__item:hover {
+  border-color: rgb(252, 133, 42);
+}
+.gallery__item:hover p{
+  color: rgb(252, 133, 42);
+}
+.gallery__item:hover li{
+  color: rgb(252, 133, 42);
+}
+.gallery__item:hover h2{
+  color: rgb(252, 133, 42);
+}
+.gallery__item h2{
+  transition: color 1s ease;
+}
+.gallery__item:hover h3{
+  color: rgb(252, 133, 42);
+}
+.gallery__item h3{
+  transition: color 1s ease;
+}
+.gallery__item li{
+  transition: color 1s ease;
+}
+
+.gallery__item p {
+  transition: color 1s ease;
+  color: rgb(85, 85, 85);
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+.gallery__thumb {
+  margin-top: 25px;
+  height: 200px;
+  margin-bottom: 16px;
+}
+.gallery__item img {
+  object-fit: cover;
+  max-width: 100%;
+  height: 100%;
+} */
+
+/* 2 */
+/* .list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  max-width: calc(100% - 64px);
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  grid-gap: 24px;
+}
+.list__item {
+  padding: 20px;
+  background-color: grey;
+  border: 4px solid rgb(66, 66, 66);
+  transition: border-color 1s ease;
+}
+.list__item:hover {
+  border-color: rgb(252, 133, 42);
+}
+.list__item:hover p{
+  color: rgb(252, 133, 42);
+}
+.list__item:hover h2{
+  color: rgb(252, 133, 42);
+}
+.list__item h2{
+  transition: color 1s ease;
+}
+
+.list__item p {
+  transition: color 1s ease;
+  color: rgb(85, 85, 85);
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+.list__thumb {
+  height: 200px;
+  margin-bottom: 16px;
+}
+.list__item img {
+  object-fit: cover;
+  max-width: 100%;
+  height: 100%;
+} */
+
+/* json storage */
+
+form{
+  display: flex;
+  flex-direction: column;
+  padding: 0 200px;
+  align-items: center;
+}
+
+input{
+
+}
+
+#comments{}
+
+/* async */
+
+/* 2 */
+
+#box{
+  width: 100px;
+  height: 100px;
+}
+
+/* DZ 7 */
+.gallery {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  max-width: calc(100% - 64px);
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  grid-gap: 24px;
+}
+.deleted{
+  display: none;
+}
